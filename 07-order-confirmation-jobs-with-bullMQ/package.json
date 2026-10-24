@@ -1,0 +1,19 @@
+{
+  "name": "07-bullmq-queue-infrastructure",
+  "version": "1.0.0",
+  "description": "Implementing a Redis-backed message queue using BullMQ",
+  "private": true,
+  "main": "src/api.js",
+  "type": "module",
+  "scripts": {
+    "api": "node src/api.js",
+    "worker": "node src/worker.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.4.2",
+    "express": "^4.18.3",
+    "ioredis": "^5.4.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
